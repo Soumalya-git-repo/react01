@@ -34,3 +34,121 @@
       color: #0056b3;
     }
   
+
+
+.passwordGenarator{
+  height: 100vh;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #73450d;
+}
+.passbox {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #222;
+}
+
+/* Range field */
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.field label {
+  font-weight: bold;
+}
+
+.field input[type="range"] {
+  width: 150px;
+  accent-color: #4e54c8;
+}
+
+.field .range-value {
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  min-width: 30px;
+}
+
+/* Checkbox options */
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.checkbox {
+  margin: 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  accent-color: #4e54c8;
+}
+
+/* Password field */
+.password-field {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.password-field input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.copy-btn {
+  background: #4e54c8;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.copy-btn:hover {
+  background: #3e43a2;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .field {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .password-field {
+    flex-direction: column;
+  }
+  .copy-btn {
+    width: 100%;
+  }
+}
+
+
