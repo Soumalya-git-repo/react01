@@ -8,7 +8,7 @@ useEffect(() => {
     fetch(`https://api.frankfurter.dev/v1/latest?base=${currency}`)
     .then((res) => res.json())
       .then((res) => {
-        setData(res[currency]); 
+        setData(res.rates); 
     })
 },[currency])
 
