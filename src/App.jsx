@@ -92,7 +92,7 @@ import './App.css'
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import CurrencyConverter from './components/CurrencyConverter'
 import { useState, useEffect } from "react";
-import graph from "./images/graph.jpg";
+import graph from "./images/blue_graph.jpg";
  import PasswordGenarator from './components/PasswordGenarator'
  import Counter from './components/Counter'
 

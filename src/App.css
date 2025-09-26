@@ -156,14 +156,16 @@ h1 {
 
 
 .converter_page {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: linear-gradient(135deg, #141e30, #243b55);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: #fff;
-  opacity: 0.90;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 /* Glassmorphism Converter */
